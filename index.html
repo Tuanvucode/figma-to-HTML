@@ -5,11 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link reset css vs style css -->
     <link rel="stylesheet" href="./assests/css/reset.css" />
+    <!-- embeb font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assests/css/style.css" />
     <title>Pigma to HTML</title>
   </head>
-  <body>
-    <h1>Pigma to HTML</h1>
-    <h2>demo</h2>
+  <body style="height: 1000px;">
+    <!-- header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+            <!-- logo -->
+            <div class="logo">
+              <a href="index.html">
+                <img src="./assests/img/logo.svg" alt="logo" class="logo"/>
+              </a>
+            </div>
+    
+            <!-- nav -->
+            <nav class="nav">
+              <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <!-- btn action -->
+            <div class="action">
+              <a href="#!" class="btn btn-sign-up">Sign Up</a>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
